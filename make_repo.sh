@@ -57,6 +57,6 @@ echo "Compressing repo."
 
 sudo tar -czvf packages.tar.gz /var/tmp/packages
 
-# ./makeself.sh --gzip /root/open-audit_dependencies/ /tmp/Open-AudIT_dependencies.run "Open-AudIT Dependencies" "/root/open-audit_dependencies/install_packages.sh"
+# ./makeself.sh --gzip /root/open-audit_dependencies/ /tmp/Open-AudIT_dependencies.run "Open-AudIT Dependencies" "./install_packages.sh"
 
 echo "Done."
